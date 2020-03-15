@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url("../webfonts/Pacifico_Regular/stylesheet.css");
+
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: -9px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+#cabeza h2 {
+	color: #FEFDFD;
+	text-align: center;
+	padding-top: 36px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 71px;
+	text-shadow: 3px 3px 2px #974103;
+}
+#cabezacontacto h2 {
+	color: #FEFDFD;
+	text-align: left;
+	padding-top: 36px;
+	padding: 20px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 71px;
+	text-shadow: 3px 3px 2px #974103;
+}
+#cabezaservicio h2 {
+	color:cornflowerblue;
+	text-align: right;
+	padding-top: 36px;
+	padding-right: 200px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 71px;
+	text-shadow: 3px 3px 2px #000;
+}
+#cabezanosotros h2 {
+	color:darkgreen;
+	text-align: right;
+	padding-top: 36px;
+	padding-right: 200px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 71px;
+	text-shadow: 3px 3px 2px #000;
+}
+
+#navegacion {
+	width: 960px;
+	height: 50px;
+	text-align: center;
+	color: #EE6700;
+}
+#navegacion a {
+    color: #F77B08;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#contenido {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+#pie {
+	background-color: #242223;
+	width: 960px;
+	height: 120px;
+	color: #F69804;
+	text-align: center;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+#cabeza {
+	text-align: right;
+	width: 960px;
+	height: 250px;
+	background-image: url(../image/banner.jpg);
+	margin: 0 auto;
+}
+#cabezacontacto {
+	text-align: right;
+	width: 960px;
+	height: 250px;
+	background-image: url(../image/banner4.jpg);
+	margin: 0 auto;
+}
+#cabezaservicio {
+	text-align: right;
+	width: 960px;
+	height: 250px;
+	background-image: url(../image/banner3.jpg);
+	margin: 0 auto;
+}
+#cabezanosotros {
+	text-align: right;
+	width: 960px;
+	height: 250px;
+	background-image: url(../image/banner2.jpg);
+	margin: 0 auto;
+}
